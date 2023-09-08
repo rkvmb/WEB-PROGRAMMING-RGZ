@@ -90,7 +90,8 @@ header a {
 }
 
 header a:hover {
-    opacity: 0.6 ;
+    color: blue;
+    opacity: 0.8;
     transition: 0.5s;
 }
 
@@ -378,33 +379,40 @@ table {
 
 td, th {
     font-size: 1vw;
+    font-weight: bold;
+    border: 6px red inset;
 }
 
 #average {
-    color: red;
-    font-size: 1.2vw;
+    color: #002f6c;
+    font-size: 3.2vw;
     width: fit-content;
     left: 37vw;
-    position: relative;
+    position: absolute;
+    top: 12vw;
 }
 
+
 #minValue {
-    color: red;
-    font-size: 1.2vw;
+    color: white;
+    font-size: 3.2vw;
     width: fit-content;
-    left: 41vw;
-    position: relative;
+    left: 37vw;
+    position: absolute;
+    top: 24vw;
 }
 
 #maxValue {
     color: red;
-    font-size: 1.2vw;
+    font-size: 3.2vw;
     width: fit-content;
-    left: 40.5vw;
-    position: relative;
+    left: 37.5vw;
+    position: absolute;
+    top: 35vw;
 }
 
 iframe {
-    position: relative;
-    left: 28%;
+    position: absolute;
+    left: 30%;
+    top: 9vw;
 }

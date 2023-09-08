@@ -1,17 +1,17 @@
 function table() {
     let table = document.getElementById('finance');
-    table.style.color = 'black';
+    table.style.color = 'blue';
 
     //Делаем заголовки
     let header1 = document.createElement("th");
     header1.innerHTML = "Дата";
-    header1.style.color = 'white';
+    header1.style.color = 'red';
     header1.style.width = '12vw';
     table.appendChild(header1);
 
     let header2 = document.createElement("th");
     header2.innerHTML = "Цена акций";
-    header2.style.color = 'white';
+    header2.style.color = 'red';
     table.appendChild(header2);
 
     //создаем таблицу и выводим в нее значения из массивов
